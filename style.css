@@ -816,245 +816,6 @@ footer p{
 
 @media only screen and (max-width: 1366px) {
     html {
-        padding: 0 30px;
-    }
-
-    .intro {
-        height: 25vh;
-    }
-
-    .headerContainer {
-        height: 75vh;
-
-    }
-    header {
-        height: 80vh;
-    }
-
-    .introContainer {
-        height: 40%;
-    }
-
-    .intro p {
-        font-size: 32px;
-    }
-
-    .con1-left article h2 {
-        margin: 2% 0px;
-        font-size: 28px;
-    }
-
-    .introContainer {
-        /* height: 73vh; */
-    }
-
-    .container-1{
-        height: 200vh;
-        display: inline;
-    }
-
-    .con1-left{
-        width: 100%;
-        align-items: center;
-    }
-
-    .con1-left article {
-        width: 80%;
-        margin-left: 0;
-    }
-     .con1-left img{
-        width: 80%;
-    }
-
-    .con1-right-img-div {
-        /* display: flex; */
-        justify-content: center;
-        margin-left: 10%;
-    }
-
-
-    .con1-left article p{
-        /* text-align: justify; */
-    }
-
-    .con1-right article{
-        margin-bottom: 10%;
-    }
-
-    .con1-left article h2{
-        margin: 5% 0;
-        font-size: 30px;
-    }
-
-    .con1-right{
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .con1-right article{
-        width:80%;
-    }
-
-    .con2-text1, .con2-text2, .con2-text3 {
-        width: 80%;
-    }
-
-    .con1-right {
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .con1-right img{
-        width: 80%;
-        margin-left: 0%;
-        margin: 5%;
-        }
-
-    .gallary{
-        height: auto;
-    }
-
-    .container-2 {
-        height: auto;
-    }
-
-    .container-2 main {
-        width: 100%;
-        height: 80vh !important;
-        display: inline;
-    }
-
-    .container-2 main article {
-        width: 100%;
-        height: 30vh;
-    }
-
-    .container-2 main article h1{
-        font-size: 28px;
-    }
-
-    .con2-text1 h1{
-        margin-left: 10% !important;
-    }
-
-    .con2-text1 p {
-        margin-left: 10% !important;
-    }
-
-    .con2-art1, .con2-art3{
-        width: 100%;
-        height: 100vh;
-        display: inline;
-    }
-
-    .con2-sec1-left {
-        width: 100%;
-        justify-content: center;
-        margin: 5% 0;
-    }
-
-    .con2-art2{
-        display: flex !important;
-        flex-direction: column-reverse;
-    }
-
-    .con2-sec2-img-div{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-    .con2-sec2-img {
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .con2-art2 article {
-         width: 100% !important;
-    }
-
-    .con2-text2 {
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .con2-sec3-img-div{
-        width: 100%;
-        justify-content:center;
-    }
-
-    .con2-sec3-img {
-        width: 70%;
-    }
-    .con2-text {
-        width: 70%;
-    }
-    .con2-text h1{
-        text-align: start;
-    }
-
-    .con2-text3 {
-        margin-top: 0%;
-    }
-
-    .con2-text3 p {
-        margin-left: 10%;
-    }
-
-    .con2-text1, .con2-text2, .con2-text3 {
-        width: 90%;
-    }
-
-    .contactsContainer p {
-        margin: 0;
-    }
-
-    .contactsContainer {
-        margin-top: 5%;
-    }
-
-    .contactBanner img {
-        width: 100%;
-    }
-
-    .contact {
-        width: 100%;
-    }
-
-.callBtn {
-    width: 70%;
-    /* margin-top: 10%; */
-}
-.callBtn img{
-    width: 40px;
-    height: 40px;
-    align-self: center;
-    justify-content: center;
-}
-
-    footer {
-        height: auto;
-        margin: 5%;
-    }
-
-    footer main{
-        display: block;
-        text-align: center;
-    }
-
-    footer p{
-        font-size: 15px;
-        margin: 12px;
-    }
-
-    #return-to-top {
-        font-size: 15px;
-      }
-
-    
-    /* html {
         padding: 0 70px;
     }
 
@@ -1094,19 +855,17 @@ footer p{
         height: 25px;
     }
 
-    .introContainer {
-        height: 45%;
-    }
-    
     .intro {
-        height: 43vh;
+        height: 45vh;
     }
 
     .intro p {
         font-size: 35px;
-        line-height: 40px;
-        letter-spacing: -2px;
-        font-weight: 300;
+        line-height: 40px
+    }
+
+    .introContainer {
+        height: 45%;
     }
 
     .introLine {
@@ -1116,7 +875,7 @@ footer p{
     }
 
     .container-1 {
-        height: 105vh
+        height: 110vh
     }
 
     .con1-left img {
@@ -1124,7 +883,7 @@ footer p{
     }
 
     .con1-left article h2 {
-        font-size: 30px; 
+        font-size: 30px;
     }
 
     .con1-left article p {
@@ -1153,15 +912,9 @@ footer p{
     .container-2 main {
         height: 75vh;
     }
-    
+
     .con2-text1 {
         width: 90%;
-    }
-
-    .con2-text1 h2 {
-        font-size: 22px;
-        line-height: 30px;
-        letter-spacing: -1px;
     }
 
     .container-2 main article h1 {
@@ -1173,12 +926,12 @@ footer p{
         line-height: 18px;
     }
     .con2-text1, .con2-text3 {
-        width: 85%;
+        width: 80%;
     }
 
     .con2-text3 {
-        margin-top: -20%;
-    } */
+        margin-top: -30%;
+    }
 
     .container-3 {
         height: 220vh;
@@ -1194,14 +947,28 @@ footer p{
         line-height: 18px;
     }
 
-    /* .contactTitleBig p {
+    .contactTitleBig p {
         font-size: 40px;
         margin: 20px 0 0 0;
     }
 
     .contactTitleSmall p {
-        font-size: 15px
-    }    
+        letter-spacing: -1px;
+        font-size: 15px;
+        color: #000000;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+
+    .contactTitleSmall {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Lato', sans-serif;
+    }
 
     .introLineContactsGrey {
         width: 1px;
@@ -1217,7 +984,7 @@ footer p{
     }
 
     .callBtn p {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     footer p {
@@ -1238,9 +1005,8 @@ footer p{
         height: 30px;
         margin-top: 2%;
     }
-
-} */
 }
+
 @media only screen and (max-width: 768px) {
     html {
         padding: 0 30px;
