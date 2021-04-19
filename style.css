@@ -232,7 +232,6 @@ font-family: 'Lato', sans-serif;
 
 .con1-right{
     width: 50%;
-    display: flex;
     flex-direction: column;
     justify-content:flex-start;
     /* align-items: center; */
@@ -744,16 +743,17 @@ font-family: 'Lato', sans-serif;
 footer{
     height: 25vh;
     color: #000000;
-    font-family: 'Bellefair', serif;    
+    font-family: 'Bellefair', serif;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer main{
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items:flex-start;
 }
 
 footer p{
@@ -770,7 +770,7 @@ footer p{
 
 .email:link {
     color: #000000;
-    text-decoration: #000000
+    text-decoration: none
   }
 
   .clickUpBtn {
@@ -796,14 +796,21 @@ footer p{
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
+
+.arrowUp a{
+    display: flex;
+    text-decoration: none;
+    /* justify-content: center;
+    align-items: center;  */
+}
+
 .arrowUp i{
     font-size: 10px;
     color: #777777;
-    z-index: 99; 
+    z-index: 99;
 }
-
 
 @media only screen and (max-width: 1366px) {
     html {
