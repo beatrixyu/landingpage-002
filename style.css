@@ -787,7 +787,7 @@ footer p{
     height: 35px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
-    border: 1px solid #777777; 
+    border: 1px solid #777777;
 }
 
 .arrowUp {
