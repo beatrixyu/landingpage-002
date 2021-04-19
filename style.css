@@ -727,6 +727,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .callBtn p {
+    text-decoration: none;
     font-family: 'lato', serif;    
     font-weight: bold;
     font-size: 28px;
