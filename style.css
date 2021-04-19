@@ -1262,8 +1262,12 @@ footer p{
         font-size: 32px;
     }
 
-    .introContainer {
-        /* height: 73vh; */
+    .headerTitleBig p {
+        font-size: 40px;
+    }
+
+    .headerTitleSmall p {
+        font-size: 20px;
     }
 
     .container-1{
@@ -1553,7 +1557,7 @@ footer p{
         padding: 20px;
     }
     .headerTitleSmall p {
-        font-size: 40px;
+        font-size: 15px;
     }
     .intro {
         height: 40vh;
