@@ -159,7 +159,7 @@ font-family: 'Lato', sans-serif;
 
 .introLine {
     background-color: #888888;
-    height: 75px;
+    height: 85px;
     width: 0.125rem;
     align-self: center;
     margin: 10px;
@@ -862,7 +862,7 @@ footer p{
     }
 
     .introLine {
-        height: 50px;
+        height: 70px;
         width: 1px;
         margin: 7px;
     }
