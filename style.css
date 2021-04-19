@@ -846,12 +846,11 @@ footer p{
         height: 25px;
     }
 
-    .introContainer {
-        margin-top: 40px;
-        /* height: 33vh; */
+    .intro {
+        height: 43vh;
     }
 
-    .introContainer p {
+    .intro p {
         font-size: 35px;
         line-height: 40px
     }
