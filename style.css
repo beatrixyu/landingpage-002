@@ -1054,6 +1054,14 @@ footer p{
         width: 80%;
     }
 
+    .con2-text1 p {
+        margin-left: 10%;
+    }
+
+    .con2-text3 h1 {
+        margin-left: 10% !important;
+
+    }
     .con1-right-img-div {
         /* display: flex; */
         justify-content: center;
@@ -1114,7 +1122,7 @@ footer p{
 
     .container-2 main article {
         width: 100%;
-        height: 70vh;
+        height: 60vh;
     }
 
     .container-2 main article h1{
